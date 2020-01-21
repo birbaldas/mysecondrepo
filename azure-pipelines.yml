@@ -31,10 +31,10 @@ steps:
   inputs:
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
-    inlineScript: 'echo "hello..how r u?"'
+    inlineScript: 'echo hello..how r u'
 
 - task: AzureCLI@2
   inputs:
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
-    inlineScript: 'echo "another hello from cli"'
+    inlineScript: 'echo another hello from cli'
