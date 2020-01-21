@@ -40,4 +40,4 @@ steps:
 - task: PythonScript@0
   inputs:
     scriptSource: 'inline'
-    script: 'print("im python")'
+    script: 'print("im python from local commit")'
