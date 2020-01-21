@@ -37,3 +37,7 @@ steps:
       # Write your commands here
       
       echo 'Hello world2222222'
+- task: PythonScript@0
+  inputs:
+    scriptSource: 'inline'
+    script: 'print("im python")'
