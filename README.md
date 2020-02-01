@@ -6,3 +6,4 @@ adding 4th line
 adding 5th line
 adding 6th line
 Added 1
+Added 2
